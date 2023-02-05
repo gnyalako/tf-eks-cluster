@@ -1,15 +1,17 @@
 # Initialisation
 
-This layer is used to create VPC and KMS resources.
+This layer is used to your custom EKS environment.
 
 # Pre-requisite
 
-- A valid AWS profile ready to use via CLI.
+- A valid AWS profile ready to use via CLI
 - Terraform version > 1.1.5 (version 1.3.7 suggested)
+- awscli installed and ready to use via CLI
+- kubectl installed and ready to use via CLI
 
 ### Create
 
-Update the `terraform.tfvars` file to include the required `aws_account_id`. Optional variables are: `environment` and `region`.
+Update the `terraform.tfvars` file to include the required `aws_account_id`. Optional variables are: `environment` and `region`. Then update any variables as you desire or leave them as default. 
 
 - update terraform.tfvars with your `aws_account_id`.
 

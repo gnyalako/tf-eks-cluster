@@ -13,4 +13,16 @@ vpc_cidr = "10.0.0.0/16"
 ###############################################################################
 # EKS
 ###############################################################################
-cluster_name = "devops-cluster"
+cluster_name                   = "devops-cluster"
+cluster_version                = "1.24"
+manage_aws_auth_configmap      = true
+cluster_endpoint_public_access = true
+
+###############################################################################
+# EKS Node Group
+###############################################################################
+node_group_instance_type = "t3.large"
+node_group_capacity_type = "SPOT"
+node_group_min_size      = 1
+node_group_max_size      = 10
+node_group_desired_size  = 1

@@ -21,7 +21,7 @@ This repo will create a create your custom EKS environment.
 ### Step by Step deployment
 * **Step 1: Clone the Repo**. This command will clone the repo and will change directory the recently cloned repo
 ```shell script
-$ git clone https://github.com/antonio-rufo/tf-gnyalakonda-eks.git
+$ git clone https://github.com/antonio-rufo/tf-gnyalakonda.git
 ```
 
 * **Step 2: Create your infrastructure.** Update the `terraform.tfvars` file with your `account ID`, `region` (Optional), and `environment` (Optional). Then update variables as you desire or leave them as default. Then update `main.tf` with the **state_bucket_id** created in step 2 (line 18) as well as the **region** (line 20).

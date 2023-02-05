@@ -24,7 +24,7 @@ This repo will create a create your custom EKS environment.
 $ git clone https://github.com/antonio-rufo/tf-gnyalakonda.git
 ```
 
-* **Step 2: Create your infrastructure.** Update the `terraform.tfvars` file with your `account ID`, `region` (Optional), and `environment` (Optional). Then update variables as you desire or leave them as default. Then update `main.tf` with the **state_bucket_id** created in step 2 (line 18) as well as the **region** (line 20).
+* **Step 2: Create your infrastructure.** Update the `terraform.tfvars` file with your `account ID`, `region` (Optional), and `environment` (Optional). Then update variables as you desire or leave them as default.
 ```shell script
 $ cd infrastructure
 $ vi terraform.tfvars

@@ -28,7 +28,6 @@ $ git clone https://github.com/antonio-rufo/tf-gnyalakonda.git
 ```shell script
 $ cd infrastructure
 $ vi terraform.tfvars
-$ vi main.tf
 ```
 Create the resources:
 ```shell script
